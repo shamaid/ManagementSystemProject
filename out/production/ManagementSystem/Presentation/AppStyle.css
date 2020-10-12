@@ -1,0 +1,110 @@
+.root{
+    -fx-background-color: linear-gradient(#ECF4FB, #9ECAEB);
+}
+Label
+{
+    -fx-text-fill: black;
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+}
+MenuBar
+{
+    -fx-text-fill: white;
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-background-color: #b7e5ff;
+
+}
+
+ToolBar
+{
+    -fx-text-fill: white;
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-background-color: #b7e5ff;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+
+TableView
+{
+    -fx-text-fill: white;
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#171bff, #60b2ff);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+ListView
+{
+    -fx-text-fill: white;
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#171bff, #60b2ff);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+Alert
+{
+    -fx-text-fill: white;
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#171bff, #60b2ff);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+VBox
+{
+    -fx-spacing: 10;
+}
+
+HBox
+{
+    -fx-spacing: 10;
+}
+
+GridPane
+{
+    -fx-spacing: 10;
+    -fx-alignment: CENTER;
+}
+
+.choice-box {
+    -fx-background-color: linear-gradient(#2668ff, #8fd1ff);;
+    -fx-mark-color: black;
+}
+.menu-item {
+    -fx-background-color: linear-gradient(#2668ff, #8fd1ff);
+}
+.menu-item .label {
+    -fx-text-fill: white;
+}
+
+.menu-item:focused {
+    -fx-background-color: linear-gradient(#2668ff, #8fd1ff);;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: black;
+}
+
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: linear-gradient(#2668ff, #171bff);
+}
+
+Button {
+    -fx-text-fill: white;
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#171bff, #60b2ff);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-padding: 5;
+}
+
+Button:hover{
+    -fx-background-color: linear-gradient(#2668ff, #8fd1ff);;
+    -fx-text-fill: black;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}

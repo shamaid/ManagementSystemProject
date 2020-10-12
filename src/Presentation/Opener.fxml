@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="850.0" stylesheets="@AppStyle.css" xmlns="http://javafx.com/javafx/8.0.192" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentation.OpenerController">
+    <top>
+        <ToolBar fx:id="tb_menu" prefHeight="0.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <items>
+                <Label fx:id="l_systemName" text="System Name" />
+                <MenuBar fx:id="mb_mainMenu" prefHeight="25.0" prefWidth="688.0">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="File">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="Close" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Help">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="Help" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="About">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="about" />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+                <ImageView fx:id="iv_systemLogo" fitHeight="25.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+            </items>
+        </ToolBar>
+    </top>
+   <center>
+      <ImageView fx:id="iv_opener" fitHeight="267.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
